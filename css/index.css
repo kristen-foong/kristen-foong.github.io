@@ -28,9 +28,19 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+.blurb {
+    font-family:Calibri;
+    text-align:center;
+}
+.blurb h1 {
+    font-size:80px;
+    text-align:center;
+}
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+    text-align:center;
+    font-family:Calibri;
 }
 
 ul.posts { 
