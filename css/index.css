@@ -1,53 +1,170 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+  background:#fafafa;
+  overflow:auto;
+  margin:0px;
+  padding:0px;
+  overflow-y:auto;
+  overflow-x:hidden;
+  width:100%;
+  height:100%;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+body::-webkit-scrollbar {display:none;}
+#nav {
+  width:100%;
+  margin:15px 0px 15px 0px;
+  padding:10px 0px 10px 0px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  font-size:2em;
+  line-height:100%;
+  z-index:10;
+  position:sticky;
+  top:0px;
+  background:#fafafa;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+#nav a {
+  line-height:100%;
+  color:#FFB68B;
+  background:-webkit-linear-gradient(left, #80EEFF, #FFB919, #FF1100);
+  background-position:right center;
+  background-size:180%;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  transition:all 0.5s ease-in-out;
+  font-family:Poppins;
+  font-size:0.4em;
+  font-weight:400;
+  letter-spacing:10px;
+  padding:10px 0px 10px 10px;
+  margin:0px 25px 0px 25px;
+  text-decoration:none;
+  border:1px solid transparent;
+  text-align:center;
 }
-a {
-    text-decoration: none;
-    color: #999;
+#nav a:hover {
+  background-position:left center;
+  border:1px solid #FFCFB4;
 }
-a:hover {
-    text-decoration: underline;
+#wrapper {
+  margin:0px;
+  padding:0px;
+  line-height:100%;
 }
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+#header {
+  background:#333;
+  background-image:url(https://duncan.co/wp-content/uploads/2014/04/Duncan-Rawlinson-Photo-52597-Boracay-Aklan-Philippines-20100702-IMG_2274-Clouds-At-Sunset-Over-The-Ocean-1024x574.jpg);
+  background-size:cover;
+  background-position:center center;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background-attachment:fixed;
+  font-size:350px;
+  font-size:27vw;
+  font-family:Poppins;
+  font-weight:900;
+  line-height:75%;
+  text-transform:uppercase;
+  letter-spacing:-20px;
+  text-align:center;
+  padding:0px;
+  margin:0px;
+  margin-left:-20px;
+  margin-top:25px;
+  margin-bottom:25px;
 }
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+#wrapper h1 {
+  padding:70px 100px 70px 100px;;
+  margin:0px;
+  background:#333;
+  background-image:url(https://duncan.co/wp-content/uploads/2014/04/Duncan-Rawlinson-Photo-52597-Boracay-Aklan-Philippines-20100702-IMG_2274-Clouds-At-Sunset-Over-The-Ocean-1024x574.jpg);
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+  text-align:left;
+  font-family:'Poppins';
+  font-weight:200;
+  font-size:2.3vw;
+  color:#fafafa;
+  text-transform:uppercase;
+  text-align:center;
+  line-height:100%;
+  letter-spacing:1em;
+  transition:all 0.5s ease-in-out;
 }
-.blurb {
-    font-family:Calibri;
-    text-align:center;
+#quickies {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  padding:30px 0px 50px 0px;
 }
-.blurb h1 {
-    font-size:80px;
-    text-align:center;
+.quickinfo {
+  background:#fafafa;
+  padding:20px 50px;
+  flex-grow:1;
+  flex-basis:50%;
+  max-width:400px;
 }
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-    text-align:center;
-    font-family:Calibri;
+.quickinfo b {
+  color:#FF7F00;
+  font-family:Poppins;
+  font-weight:600;
 }
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+.quickinfospan {
+  background:-webkit-linear-gradient(left,#FFB919, #FF1100);
+  background-position:center center;
+  background-size:30px;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  font-size:1.8em;
+  text-align:center;
+  margin:20px 50px 30px 50px;
 }
-
-ul.posts li {
-    list-style: none;
+.quickdesc {
+  margin:0px 50px 0px 50px;
+  text-align:center;
+  font-size:0.8em;
+  font-family:Karla;
+  color:#888;
+  line-height:1.4em;
+}
+#greeting {
+  background-image:url(https://duncan.co/wp-content/uploads/2014/04/Duncan-Rawlinson-Photo-52597-Boracay-Aklan-Philippines-20100702-IMG_2274-Clouds-At-Sunset-Over-The-Ocean-1024x574.jpg);
+  background-size:cover;
+  background-position:center center;
+  padding:200px 100px 200px 100px;
+  background-attachment:fixed;
+  text-align:center;
+  color:#fff;
+  font-family:Poppins;
+  font-size:1.6vw;
+  font-weight:200;
+  letter-spacing:0.5em; 
+  line-height:200%;
+  text-transform:uppercase;
+  text-shadow:0px 0px 5px rgba(0,0,0,0.5);
+}
+#greeting b {
+  font-weight:800;
+  letter-spacing:1em;
+}
+#greeting span {
+  font-size:2.5vw;
+}
+footer{
+  padding:10px;
+  margin:0px;
+  text-align:center;
+  font-family:Poppins;
+  font-size:8px;
+  text-transform:uppercase;
+  color:#fff;
+  font-weight:300;
+  letter-spacing:3px;
+  background-image:url(https://duncan.co/wp-content/uploads/2014/04/Duncan-Rawlinson-Photo-52597-Boracay-Aklan-Philippines-20100702-IMG_2274-Clouds-At-Sunset-Over-The-Ocean-1024x574.jpg);
+  background-size:cover;
+  background-position:center center;
+}l
+footer p {
+  margin:5px 0px 0px 0px;
 }
