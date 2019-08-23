@@ -5,6 +5,8 @@ $(document).ready(function(){
     var vh = $(window).height();
     var vw = $(window).width();
     
+    
+    /** menu **/
     $(".kgit-item").css({
       "opacity" : "0.5"
     });
@@ -12,6 +14,8 @@ $(document).ready(function(){
       "opacity" : 1
     });
     
+    
+    /** display descriptions **/
     $(".kgit-desc").css({
       "opacity": "0",
       "transform" : "translate(100px, 0px)",
@@ -23,6 +27,10 @@ $(document).ready(function(){
       "z-index" : "5"
     });
     
+    
+    /** change background position on click **/
+    /** disable colorchange animation if wanting this feature **/
+    /*
     if(id == "about"){
     	$(".kgit-bg").animate({
       	top : 0,
@@ -51,7 +59,7 @@ $(document).ready(function(){
         left : -vw
       });
     }
-    
+    */
   });
   
 });
