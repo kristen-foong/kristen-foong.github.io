@@ -1,2 +1,3 @@
 # kristen-foong.github.io
-kristen's site
+
+This is the personal site of Kristen Foong.
