@@ -330,6 +330,10 @@ body {
 #projects-desc {
   padding:10px 0px 0px 20px;
 }
+#projects-desc a {
+  color:#fff;
+  text-decoration:none;
+}
 
 .kgit-proj {
   width: 100%;
