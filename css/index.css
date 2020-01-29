@@ -357,11 +357,11 @@ body a {
   text-transform:uppercase;
   font-size:13px;
   font-style:normal;
+  margin-bottom:5px;
 }
 #projects-desc div span {
   float:right;
   text-transform:uppercase;
-  font-style:italic;
   font-size:10px;
 }
 
