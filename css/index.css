@@ -346,7 +346,6 @@ body a {
   margin-bottom:5px;
   font-size:11px;
   line-height:14px;
-  font-style:italic;
   text-transform:capitalize;
   transition:all 0.5s ease-in-out;
 }
@@ -362,7 +361,7 @@ body a {
 #projects-desc div span {
   float:right;
   text-transform:uppercase;
-  font-style:normal;
+  font-style:italic;
   font-size:10px;
 }
 
