@@ -13,6 +13,11 @@ body {
   overflow:hidden;
 }
 
+body a {
+  color:#fafafa;
+  text-decoration:none;
+}
+
 @keyframes colorchange {
   0% {
     top: 0px; 
