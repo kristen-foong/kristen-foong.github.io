@@ -364,6 +364,13 @@ body a {
   text-transform:uppercase;
   font-size:10px;
 }
+#projects-desc div a {
+  transition:all 0.5s ease-in-out;
+  color:#fff;
+}
+#projects-desc div a:hover {
+  opacity:0.8;
+}
 
 #projects-desc h1 {
   width:100%;
