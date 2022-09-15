@@ -470,7 +470,7 @@ by Wojtek Tymicki from https://codepen.io/panweb/pen/zYwyXx **/
   color:var(--white);
   text-decoration:none;
 }
-.j-proj-desc h1:hover {
+.j-proj-desc h1 a:hover {
   transform:skew(-0.05turn, 0deg);
 }
 .j-proj-desc h3 {
@@ -598,5 +598,5 @@ footer {
   margin:0px;
   position:absolute;
   bottom:0px; left:0px;
-  opacity:0.6;  
+  opacity:0.6;
 }
