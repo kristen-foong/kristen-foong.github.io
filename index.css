@@ -471,7 +471,7 @@ by Wojtek Tymicki from https://codepen.io/panweb/pen/zYwyXx **/
   text-decoration:none;
 }
 .j-proj-desc h1 a:hover {
-  transform:skew(-0.05turn, 0deg);
+  font-style:italic;
 }
 .j-proj-desc h3 {
   font-family:'Poppins', Arial;
