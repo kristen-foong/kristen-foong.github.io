@@ -190,6 +190,8 @@ by Wojtek Tymicki from https://codepen.io/panweb/pen/zYwyXx **/
 
 @media only screen and (max-width: 1000px) {
   #j-beringia {
+    background-attachment:scroll;
+    background-repeat:no-repeat;
     background-size: auto 100vh;
   }
   #j-beringia h2 {
@@ -348,6 +350,8 @@ by Wojtek Tymicki from https://codepen.io/panweb/pen/zYwyXx **/
 
 @media only screen and (max-width: 1000px) {
   #j-experience {
+    background-attachment:scroll;
+    background-repeat:no-repeat;
     background-size: auto 100vh;
   }
   #j-explist {
@@ -553,6 +557,8 @@ by Wojtek Tymicki from https://codepen.io/panweb/pen/zYwyXx **/
 
 @media only screen and (max-width: 1000px) {
   #j-projects {
+    background-attachment:scroll;
+    background-repeat:no-repeat;
     background-size: auto 100vh;
   }
   #j-projlist {
@@ -651,6 +657,8 @@ by Wojtek Tymicki from https://codepen.io/panweb/pen/zYwyXx **/
 
 @media only screen and (max-width: 1000px) {
   #j-contact {
+    background-attachment:scroll;
+    background-repeat:no-repeat;
     background-size: auto 100vh;
   }
   #j-contact h2 {
