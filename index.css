@@ -130,7 +130,6 @@ by Wojtek Tymicki from https://codepen.io/panweb/pen/zYwyXx **/
   left:50%;
   bottom:0px;
   -webkit-animation: arrow 0.5s 1s infinite ease-out alternate;
-
 }
 
 .arrow-down:hover{
@@ -190,9 +189,7 @@ by Wojtek Tymicki from https://codepen.io/panweb/pen/zYwyXx **/
 
 @media only screen and (max-width: 1000px) {
   #j-beringia {
-    background-attachment:scroll;
-    background-repeat:no-repeat;
-    background-size: auto 100vh;
+    background-size: auto 120vh;
   }
   #j-beringia h2 {
     margin:20px 15vw 30px 15vw;
@@ -350,8 +347,6 @@ by Wojtek Tymicki from https://codepen.io/panweb/pen/zYwyXx **/
 
 @media only screen and (max-width: 1000px) {
   #j-experience {
-    background-attachment:scroll;
-    background-repeat:no-repeat;
     background-size: auto 100vh;
   }
   #j-explist {
@@ -557,8 +552,6 @@ by Wojtek Tymicki from https://codepen.io/panweb/pen/zYwyXx **/
 
 @media only screen and (max-width: 1000px) {
   #j-projects {
-    background-attachment:scroll;
-    background-repeat:no-repeat;
     background-size: auto 100vh;
   }
   #j-projlist {
@@ -657,8 +650,6 @@ by Wojtek Tymicki from https://codepen.io/panweb/pen/zYwyXx **/
 
 @media only screen and (max-width: 1000px) {
   #j-contact {
-    background-attachment:scroll;
-    background-repeat:no-repeat;
     background-size: auto 100vh;
   }
   #j-contact h2 {
