@@ -189,6 +189,7 @@ by Wojtek Tymicki from https://codepen.io/panweb/pen/zYwyXx **/
 
 @media only screen and (max-width: 1000px) {
   #j-beringia {
+    background-attachment:scroll;
     background-size: auto 120vh;
     background-repeat:no-repeat;
   }
@@ -348,8 +349,8 @@ by Wojtek Tymicki from https://codepen.io/panweb/pen/zYwyXx **/
 
 @media only screen and (max-width: 1000px) {
   #j-experience {
+    background-attachment:scroll;
     background-size: auto 100vh;
-    background-repeat:no-repeat;
     background-repeat:no-repeat;
   }
   #j-explist {
@@ -360,7 +361,7 @@ by Wojtek Tymicki from https://codepen.io/panweb/pen/zYwyXx **/
     padding:0vw;
   }
   #j-explist::-webkit-scrollbar {
-    width:2px;
+    width:3px;
   }
   #j-explist::-webkit-scrollbar-thumb {
     background:var(--white);
@@ -555,6 +556,7 @@ by Wojtek Tymicki from https://codepen.io/panweb/pen/zYwyXx **/
 
 @media only screen and (max-width: 1000px) {
   #j-projects {
+    background-attachment:scroll;
     background-size: auto 100vh;
     background-repeat:no-repeat;
   }
@@ -566,7 +568,7 @@ by Wojtek Tymicki from https://codepen.io/panweb/pen/zYwyXx **/
     overflow-y:auto;
   }
   #j-projlist::-webkit-scrollbar {
-    width:2px;
+    width:3px;
   }
   #j-projlist::-webkit-scrollbar-thumb {
     background:var(--white);
@@ -617,7 +619,7 @@ by Wojtek Tymicki from https://codepen.io/panweb/pen/zYwyXx **/
 #j-contact h2 {
   position:relative;
   display:flex;
-  flex-wrap:no-wrap;
+  flex-wrap:nowrap;
   justify-content:center;
   align-content:center;
   justify-items:center;
@@ -654,6 +656,7 @@ by Wojtek Tymicki from https://codepen.io/panweb/pen/zYwyXx **/
 
 @media only screen and (max-width: 1000px) {
   #j-contact {
+    background-attachment:scroll;
     background-size: auto 100vh;
     background-repeat:no-repeat;
   }
@@ -677,8 +680,8 @@ footer {
   text-align:center;
   color:var(--white);
   font-family:'Poppins', Arial;
-  font-size:12px;
-  text-shadow:0px 0px 5px rgba(0,0,0,0.3);
+  font-size:13px;
+  text-shadow:0px 0px 5px rgba(0,0,0,0.25);
   font-weight:400;
   padding:0px;
   margin:0px;
