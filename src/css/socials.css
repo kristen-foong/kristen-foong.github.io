@@ -1,0 +1,63 @@
+
+/* Socials menu */
+
+.socials {
+    position:fixed;
+    bottom:55px; 
+    left:65px;
+    z-index:10;
+    color:#fff;
+    width: 90vw;
+    display:flex;
+    align-items:center;
+  }
+  
+  .socials a {
+    margin: 0px 10px;
+    padding:0px 5px;
+    color:#fff;
+    font-size:30px;
+    line-height:100%;
+    transition:all ease-in-out 0.2s;
+  }
+  .socials a:hover {
+    color:#000;
+  }
+  
+  
+            
+  /* Media Query for Mobile Devices */
+  @media (max-width: 480px) {
+    .socials {
+      bottom:10px;
+      left:10px;
+    }
+    .socials a {
+      font-size:1.2em;
+      margin:0px 5px;
+    }
+  }
+  
+  /* Media Query for low resolution  Tablets, Ipads */
+  @media (min-width: 481px) and (max-width: 767px) {
+    .socials {
+      bottom:15px;
+      left:15px;
+    }
+    .socials a {
+      margin:0px 5px;
+      font-size:1.5em;
+    }
+  }
+  
+  /* Media Query for Tablets Ipads portrait mode */
+  @media (min-width: 768px) and (max-width: 1024px){
+    .socials {
+      bottom:15px;
+      left:15px;
+    }
+    .socials a {
+      margin:0px 5px;
+      font-size:1.5em;
+    }
+  }

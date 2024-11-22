@@ -1,0 +1,178 @@
+
+/* Menu */
+.menu {
+    position:fixed;
+    top:55px; 
+    left:65px;
+    z-index:10;
+    color:#fff;
+    width: 90vw;
+    display:flex;
+    align-items:center;
+  }
+  
+  .menu a {
+    color:#fff;
+    text-decoration:none;
+  }
+  
+  .symbol {
+    position:relative;
+    font-size:35px;
+    line-height:100%;
+    padding:15px;
+    font-weight:800;
+    color:#fff;
+    font-family:'Urbanist', Arial;
+    text-transform:uppercase;
+    transition:ease-in-out 0.3s;
+  }
+  .symbol:before {
+    content:'';
+    z-index:-1;
+    width:40px;
+    height:5px;
+    background:#fff;
+    position:absolute;
+    bottom:0px;
+    left:15px;
+    transition:ease-in-out 0.4s;
+  }
+  .symbol:hover:before {
+    bottom:-8px; left:-6px;
+    width:80px;
+    height:80px;
+    background:transparent;
+    border:1px solid #fff;
+  }
+  
+  .links {
+    margin-left:2%;
+    font-family:'Rajdhani', Arial;
+  }
+  .links a {
+    color:#fff;
+    margin: 0px 10px;
+    padding:0px 5px;
+    font-size:15px;
+    text-transform:uppercase;
+    font-weight:900;
+    letter-spacing:2px;
+    border:1px solid transparent;
+    transition:all ease-in-out 0.2s;
+  }
+  .links a:hover {
+    color:#000;
+    border:1px solid #000;
+  }
+  .links a:active {
+    border:1px solid #fff;
+  }
+
+
+/* screen sizes */
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .menu {
+    top:5px;
+    left:5px;
+    text-align:center;
+  }
+  .symbol {
+    font-size:1.5em;
+  }
+  .symbol:before {
+    content:'';
+    width:1em;
+  }
+  .symbol:before:hover {
+    bottom:0px;
+    left:0px;
+    width:1em;
+    height:5px;
+    background:#fff;
+    border:none;
+  }
+  .links {
+    display:flex;
+    align-items:center;
+    flex-wrap:no-wrap;
+    white-space: nowrap;
+    flex-grow:1;
+  }
+  .links a {
+    font-size:0.7em;
+    margin:0px 5px;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  .menu {
+    top:5px;
+    left:5px;
+    text-align:center;
+  }
+  .symbol {
+    font-size:1.5em;
+  }
+  .symbol:before {
+    content:'';
+    width:1em;
+  }
+  .symbol:before:hover {
+    bottom:0px;
+    left:0px;
+    width:1em;
+    height:5px;
+    background:#fff;
+    border:none;
+  }
+  .links {
+    display:flex;
+    align-items:center;
+    flex-wrap:no-wrap;
+    white-space: nowrap;
+    flex-grow:1;
+  }
+  .links a {
+    font-size:0.7em;
+    margin:0px 5px;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .menu {
+    top:10px;
+    left:10px;
+    text-align:center;
+  }
+  .symbol {
+    font-size:1.7em;
+  }
+  .symbol:before {
+    content:'';
+    width:1em;
+  }
+  .symbol:before:hover {
+    bottom:0px;
+    left:0px;
+    width:1em;
+    height:5px;
+    background:#fff;
+    border:none;
+  }
+  .links {
+    display:flex;
+    align-items:center;
+    flex-wrap:no-wrap;
+    white-space: nowrap;
+    flex-grow:1;
+  }
+  .links a {
+    font-size:0.9em;
+    margin:0px 5px;
+  }
+}
