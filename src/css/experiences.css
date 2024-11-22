@@ -1,0 +1,236 @@
+/* Experience */
+
+#experience {
+  scroll-behavior: smooth !important;
+}
+
+.experience {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.experience-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -10;
+  top: 0px;
+  left: 0px;
+  background-image: var(--experience-bg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  filter: url(#warm-sea);
+  /* change this to have different filters */
+}
+
+.experience-c {
+  color: #fff;
+  margin-top: -30px;
+  max-width: 60vw;
+  min-height: 65vh;
+  margin-left: 30%;
+  text-align: right;
+  color: #fff;
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  padding-bottom: 12vh;
+}
+
+.exp-c {
+  position: relative;
+  width: 80%;
+  padding-right: 5%;
+  margin-bottom: 20px;
+}
+
+.exp-company {
+  font-family: 'Urbanist', Arial;
+  line-height: 1em;
+  font-size: 5em;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.exp-company a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.exp-company a:hover {
+  color: #000;
+}
+
+.exp-job {
+  position: relative;
+  padding: 5px 0px;
+}
+
+.exp-job span {
+  white-space: nowrap;
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+  transition: all ease-in-out 0.2s;
+  text-shadow: none;
+  padding: 11px 10px 3px 10px;
+}
+
+.exp-job b {
+  background: var(--experience-bg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  filter: url(#warm-sea);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: 'Rajdhani', Arial;
+  font-size: 1.8em;
+  line-height: 1.8em;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+}
+
+.exp-desc {
+  color: #fff;
+  font-size: 1.1em;
+  font-family: 'DM Sans', Arial;
+  font-weight: 500;
+  line-height: 1.4em;
+  padding-left: 15%;
+  text-align: right;
+  text-shadow: 0px 0px 3px #000;
+}
+
+.exp-date {
+  position: sticky;
+  top: 0;
+  width: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-family: 'Rajdhani', Arial;
+  font-size: 1.5em;
+  font-weight: 800;
+  padding-top: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.exp-date:before {
+  content: '';
+  width: 30px;
+  height: 1px;
+  position: absolute;
+  top: 22px;
+  left: -20px;
+  background: #fff;
+}
+
+.exp-cc {
+  position: relative;
+  display: flex;
+  align-items: start;
+  flex-grow: 1;
+  margin-bottom: 0.5em;
+}
+
+
+/* screen sizes */
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .experience-c {
+    max-width: 100vw;
+    margin-left: 0;
+  }
+  .exp-c {
+    width:65%;
+    margin-left:8%;
+  }
+  .exp-company {
+    font-size:2em;
+  }
+  .exp-job span {
+    padding:2px 5px;
+  }
+  .exp-job b {
+    font-size:1em;
+  }
+  .exp-date {
+    font-size:1em;
+  }
+  .exp-date:before {
+    width:10px;
+    top:15px;
+    left:-10px;
+  }
+  .exp-desc {
+    font-size:0.9em;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  .experience-c {
+    max-width: 90vw;
+    margin-left: 0;
+  }
+  .exp-company {
+    font-size:3em;
+  }
+  .exp-job span {
+    padding:4px 5px 2px 5px;
+  }
+  .exp-job b {
+    font-size:1.2em;
+  }
+  .exp-date {
+    font-size:1em;
+  }
+  .exp-date:before {
+    width:10px;
+    top:15px;
+    left:-10px;
+  }
+  .exp-desc {
+    font-size:1em;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .experience-c {
+    max-width: 100vw;
+    margin-left: 0;
+  }
+  .exp-c {
+    margin-left:5%;
+  }
+  .exp-company {
+    font-size:3.3em;
+  }
+  .exp-job span {
+    padding:5px 5px 2px 5px;
+  }
+  .exp-job b {
+    font-size:1.3em;
+  }
+  .exp-date {
+    font-size:1em;
+  }
+  .exp-date:before {
+    width:10px;
+    top:20px;
+    left:-10px;
+  }
+  .exp-desc {
+    font-size:1em;
+  }
+}

@@ -1,0 +1,125 @@
+/* Intro */
+
+#intro {
+  scroll-behavior: smooth !important;
+}
+
+.intro {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.intro-bg {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: var(--intro-bg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  filter: url(#warm-sea);
+}
+
+.intro-c {
+  position: absolute;
+  max-width: 45vw;
+  height: 60%;
+  top: 20%;
+  right: 11%;
+  text-align: right;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.intro-p {
+  font-size: 1.7em;
+  letter-spacing: 1px;
+  font-family: 'DM Sans', Arial;
+  line-height: 1.5em;
+  font-weight: 400;
+  text-shadow: 0px 0px 3px #000;
+}
+
+.intro-p .hi {
+  position: relative;
+  margin-bottom: 0.4em;
+  font-family: 'DM Sans', Arial;
+  font-size: 3em;
+  color: #fff;
+  font-weight: 600;
+  line-height: 1em;
+  text-shadow:none;
+}
+
+.intro-p .desc span {
+  white-space: nowrap;
+  position: relative;
+  background: #fff;
+  margin: 0px 5px;
+  overflow: hidden;
+  transition: all ease-in-out 0.2s;
+  text-shadow: none;
+}
+
+.intro-p .desc b {
+  padding: 0px 10px;
+  background: var(--intro-bg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  filter: url(#warm-sea);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: 'Rajdhani', Arial;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+}
+
+.intro-fact {
+  margin-top: 40px;
+  font-size: 0.7em;
+  line-height: 1em;
+  font-family: 'Rajdhani', Arial;
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* screen sizes */
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .intro-c {
+    max-width:90vw;
+    right:5%;
+  }
+  .intro-p {
+    font-size:1em;
+    text-align:center;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  .intro-c {
+    max-width:70vw;
+  }
+  .intro-p {
+    font-size:1.3em;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .intro-c {
+    max-width:70vw;
+  }
+  .intro-p {
+    font-size:1.3em;
+  }
+}
+       
