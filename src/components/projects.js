@@ -45,6 +45,30 @@ export default class Projects extends Component {
 
                         <div class="proj-c cursor-activate">
                             <div className='proj-date'>
+                                2024
+                            </div>
+                            <div className="proj-origin">
+                                <div className="proj-i">
+                                    <FontAwesomeIcon icon={faPalette} />
+                                </div>
+                                Personal
+                            </div>
+                            <div class="proj-title">
+                                Visualboxd Redesign
+                            </div>
+                            <div className="proj-desc">
+                                A study in UX and UI applied to the Visualboxd project in order to make the site more informative, visually appealing and accessible.
+                            </div>
+                            <div className="proj-stack">
+                                <b>Figma</b>
+                            </div>
+                            <a href="https://kristen-foong.notion.site/Visualboxd-Redesign-Case-Study-97dde7605b534db1ba0f05562fa6f5ba?source=copy_link" target="_blank">
+                                <span class="proj-link"></span>
+                            </a>
+                        </div>
+
+                        <div class="proj-c cursor-activate">
+                            <div className='proj-date'>
                                 2023
                             </div>
                             <div className="proj-origin">
